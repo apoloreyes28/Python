@@ -1,0 +1,41 @@
+Estructuras de Datos:
+Casi todos los programas usan datos. La organización, la gestión y el
+almacenamiento de los datos son importantes, ya que permiten un acceso
+más fácil y modificaciones eficaces.
+
+Las estructuras de datos te permiten almacenar y gestionar tus datos.
+Python tiene un número de estructuras de datos incorporados:
+
+ - Cadenas (arreglos, vectores, strings)
+ - Listas
+ - Diccionarios
+ - Tuplas
+ - Conjuntos
+
+Además de las estructuras de datos incorporadas, Python te permite
+crear sus propias estructuras de datos, permitiéndote tener un
+control total sobre su funcionalidad.
+Las estructuras de datos más destacadas son:
+
+ - Pilas
+ - Colas
+ - Árboles Binarios
+ - Grafos
+ - Listas Enlazadas
+
+Cuándo utilizar un diccionario:
+- Cuando necesites una asociación lógica entre un par key:value.
+- Cuando necesites una búsqueda rápida de tus datos,
+  basada en una clave personalizada.
+- Cuando tus datos se modifican constantemente.
+  Recuerda que los diccionarios son mutables.
+
+Cuándo utilizar los otros tipos:
+- Usa listas si tienes una colección de datos que no necesitan
+  acceso aleatorio. Intenta elegir listas cuando necesites una
+  colección simple e iterable que se modifique con frecuencia.
+- Usa un conjunto si necesitas que los elementos sean únicos.
+- Usa tuplas cuando tus datos no pueden/deben cambiar.
+
+Muchas veces, una tupla se utiliza en combinación con un diccionario,
+por ejemplo, una tupla puede representar una clave, porque es inmutable.

@@ -1,0 +1,30 @@
+Los Grafos se usan para representar muchas aplicaciones de la vida
+real, como redes, rutas de transporte de una ciudad y conexiones de
+redes sociales.
+
+Un grafo es un conjunto de nodos conectados donde cada nodo se
+llama Vértice y la conexión entre dos de ellos se llama Arista.
+
+Esto puede representar, por ejemplo, conexiones en una red social, donde
+cada Vértice representa una persona y las Aristas representan conexiones.
+
+Un grafo puede representarse mediante una matriz cuadrada, en la que
+cada elemento representa las aristas: El 0 indica que no hay ninguna
+arista, mientras que el 1 indica una arista. Las filas y columnas
+representan los vértices.
+
+0 1 1
+1 0 0
+1 0 0
+
+La matriz anterior representa un grafo con 3 vértices (por eso es una
+matriz de 3x3).
+
+Los 1 representan las aristas. Hay 2 aristas: el primer vértice
+está conectado con el segundo y el tercero.
+
+Hay cuatro 1 en la matriz, porque si A está conectado con B,
+entonces B está conectado con A.
+
+Este tipo de matriz se llama matriz de adyacencia, porque muestra si
+los vértices correspondientes son adyacentes o no.

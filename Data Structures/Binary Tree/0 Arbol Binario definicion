@@ -1,0 +1,13 @@
+Un árbol binario es una estructura de datos de árbol en la que cada
+nodo tiene como máximo dos hijos, a los que se hace referencia como
+el hijo izquierdo y el hijo derecho.
+
+Para implementar un árbol binario, primero definamos la clase Node,
+que representará un solo nodo en el árbol. Cada nodo puede tener
+nodos izquierdo y derecho:
+
+class Node:
+  def __init__(self, data):
+    self.data = data
+    self.left = None
+    self.right = None

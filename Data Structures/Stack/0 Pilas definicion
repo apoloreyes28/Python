@@ -1,0 +1,15 @@
+Una pila es una estructura de datos sencilla que añade y elimina
+elementos en un orden determinado.
+Cada vez que se añade un elemento, éste pasa a la "parte superior"
+de la pila. Sólo un elemento en la parte superior de la pila puede
+ser eliminado, al igual que una pila de platos. Este comportamiento
+se denomina: LIFO (Last In, First Out).
+
+Terminologia:
+Añadir un nuevo elemento a la pila se llama push.2
+La eliminación de un elemento de la pila se llama pop.
+
+Aplicaciones:
+Las pilas se pueden utilizar para crear funcionalidades de deshacer, analizar expresiones (conversión de infijo a postfijo/prefijo), y mucho más.
+
+Una pila puede ser implementada usando una lista en Python.

@@ -1,0 +1,17 @@
+Una cola es similar a una pila, pero define una forma diferente de
+añadir y eliminar elementos. Los elementos se insertan desde un
+extremo, llamado rear, y borrado desde el otro extremo, llamado front.
+Este comportamiento se llama:  FIFO (First in First Out).
+
+Terminologia:
+El proceso de añadir nuevos elementos a la cola se llama enqueue.
+El proceso de eliminación de un elemento de la cola se denomina dequeue.
+
+Aplicaciones:
+Las colas se utilizan siempre que necesitamos gestionar los objetos
+en orden empezando por el primero que entra.
+Los escenarios incluyen la impresión de documentos en una impresora,
+sistemas de centros de llamadas que responden a personas en espera, etc.
+
+Las listas en Python son la forma más sencilla de implementar
+una funcionalidad de cola.

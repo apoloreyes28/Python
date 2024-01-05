@@ -1,0 +1,21 @@
+Una lista enlazada es una secuencia de nodos en la que cada nodo
+almacena sus propios datos y un enlace con el siguiente nodo.
+Un nodo se enlaza con otro formando lo que puede considerarse una
+cadena enlazada:
+
+El primer nodo se llama head, y se utiliza como punto de partida
+para cualquier iteración a través de la lista. El último nodo debe
+tener su enlace apuntando a None para determinar el final de la lista.
+
+A diferencia de las pilas y las colas, se pueden insertar y eliminar
+nodos en cualquier posición de la lista enlazada (similar a una lista estándar).
+
+Aplicaciones:
+Las listas enlazadas son útiles cuando los datos están enlazados.
+Por ejemplo, cuando se necesita la funcionalidad de deshacer/rehacer,
+los nodos pueden representar el estado con enlaces a los estados
+anteriores y siguientes. Otro ejemplo sería una lista de reproducción
+de música, donde cada clip está vinculado con el siguiente.
+
+Las listas enlazadas también pueden utilizarse para crear otras
+estructuras de datos, como pilas, colas y grafos.
